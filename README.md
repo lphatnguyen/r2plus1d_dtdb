@@ -11,3 +11,19 @@ We trained two models seperately for both kinds of inputs before applying a late
 - [Pretrained weights for DoG inputs](https://drive.google.com/file/d/1kbpuZRvP-tp68YLj9eNeCBT0BRB6xPE9/view?usp=sharing)
 
 ## Requirements
+- Python >= 3.6
+- PyTorch >= 1.5.0
+- torchvision >= 0.8.1
+- OpenCV 
+- Numpy >= 1.20.3
+- tqdm
+
+## Citation 
+If you use this code for publication, please cite:
+
+```bibtex
+@misc{lphatnguyen2020,
+    author  = {Luong Phat Nguyen and Julien Mille and Dominique Li and Donatello Conte and Nicolas Ragot},
+    year    = {2020},
+    url     = {https://github.com/lphatnguyen/r2plus1d_dtdb}
+```
